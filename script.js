@@ -360,7 +360,7 @@ const artworks = [
         description: "Dobby Relaxing in the beach",
         category: "digital arts",
         date: "2025-09-03",
-        imageUrl: "Art 1.jpg"
+        imageUrl: "art 1.jpg"
     }
 ];
 
@@ -609,4 +609,5 @@ function formatDate(dateString) {
     return new Date(dateString).toLocaleDateString(undefined, options);
 
 }
+
 
