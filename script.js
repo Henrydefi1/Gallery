@@ -361,7 +361,7 @@ const artworks = [
         category: "digital arts",
         date: "2025-09-03",
         imageUrl: "Art 1.jpg"
-    },
+    }
 ];
 
 // DOM Elements
@@ -609,3 +609,4 @@ function formatDate(dateString) {
     return new Date(dateString).toLocaleDateString(undefined, options);
 
 }
+
