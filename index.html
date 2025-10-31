@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henry's Art Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Henry's Art Gallery</h1>
+        <p>Showcasing Creative Works</p>
+    </header>
+    
+    <main>
+        <section class="gallery-container">
+            <div class="gallery-header">
+                <h2>Featured Artworks</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="contest">Contest</button>
+                </div>
+            </div>
+            
+            <div class="art-grid" id="artGrid">
+                <!-- Artwork items will be dynamically added here -->
+            </div>
+        </section>
+        
+        <section class="contest-section">
+            <div class="contest-header">
+                <h2>Contest Section</h2>
+                <button class="back-to-all-btn filter-btn" data-filter="all">Back to All Artworks</button>
+            </div>
+            <div class="contest-grid" id="contestGrid">
+                <!-- Contest artworks will be dynamically added here -->
+            </div>
+        </section>
+        
+        <section class="art-modal" id="artModal">
+            <span class="close-btn">&times;</span>
+            <div class="modal-content">
+                <img id="modalImage" src="" alt="">
+                <div class="art-details">
+                    <h3 id="artTitle"></h3>
+                    <p id="artDescription"></p>
+                    <p class="art-meta">
+                        <span id="artCategory"></span> | 
+                        <span id="artDate"></span>
+                    </p>
+                    <button id="downloadBtn" class="modal-download-btn">Download Image</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="social-section">
+            <p>Follow me on X for more updates:</p>
+            <a href="https://x.com/Henrydefi_01" target="_blank" class="x-handle">@Henrydefi_01</a>
+        </div>
+        <p>&copy; 2025 Henry's Art Gallery.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
