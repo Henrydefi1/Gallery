@@ -1,5 +1,21 @@
 // Sample artwork data - you can replace this with your actual artworks
 const artworks = [
+     {
+        id: 46,
+        title: "Art 46",
+        description: "Empty for now",
+        category: "digital arts",
+        date: "2025-11-02",
+        imageUrl: "Art 46.jpg"
+    },
+    {
+        id: 45,
+        title: "Art 45",
+        description: ".@SentientAGI is teaming up with @UnifaiNetwork to make smart AI tools that anyone can use safely and easily",
+        category: "digital arts",
+        date: "2025-11-01",
+        imageUrl: "Art 45.jpg"
+    },
     {
         id: 44,
         title: "Art 44",
@@ -609,6 +625,7 @@ function formatDate(dateString) {
     return new Date(dateString).toLocaleDateString(undefined, options);
 
 }
+
 
 
 
