@@ -1,11 +1,59 @@
 // Sample artwork data - you can replace this with your actual artworks
 const artworks = [
      {
+        id: 52,
+        title: "Art 52",
+        description: "Not published yet",
+        category: "digital arts",
+        date: "2025-11-12",
+        imageUrl: "Art 51.jpg"
+    },
+     {
+        id: 51,
+        title: "Art 51",
+        description: "Why Parallel Execution Makes Sentient’s MultiAgent System More Efficient",
+        category: "digital arts",
+        date: "2025-11-10",
+        imageUrl: "Art 51.jpg"
+    },
+     {
+        id: 50,
+        title: "Art 50",
+        description: ".@SentientAGI has partnered up with @chainlink to make AI smarter and more connected to the real world.",
+        category: "digital arts",
+        date: "2025-11-08",
+        imageUrl: "Art 50.jpg"
+    },
+     {
+        id: 49,
+        title: "Art 49",
+        description: ".@SentientAGI has partnered with @TalusNetwork to combine open AGI with on chain AI infrastructure.",
+        category: "digital arts",
+        date: "2025-11-07",
+        imageUrl: "Art 49.jpg"
+    },
+     {
+        id: 48,
+        title: "Art 48",
+        description: "Knowledge is the real spell. The rest are just special effects. Every great discovery begins with curiosity, the oldest kind of magic there is",
+        category: "digital arts",
+        date: "2025-11-06",
+        imageUrl: "Art 48.jpg"
+    },
+     {
+        id: 47,
+        title: "Art 47",
+        description: "ROMA by @SentientAGI is built to think a lot like people, but much faster.",
+        category: "digital arts",
+        date: "2025-11-05",
+        imageUrl: "Art 47.jpg"
+    },
+     {
         id: 46,
         title: "Art 46",
-        description: "Empty for now",
+        description: "Its not just about winning. it’s about getting smarter every round. Strategy-Precision-Growth @SentientAGI",
         category: "digital arts",
-        date: "2025-11-02",
+        date: "2025-11-04",
         imageUrl: "Art 46.jpg"
     },
     {
@@ -625,6 +673,7 @@ function formatDate(dateString) {
     return new Date(dateString).toLocaleDateString(undefined, options);
 
 }
+
 
 
 
