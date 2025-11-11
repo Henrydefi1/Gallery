@@ -6,7 +6,7 @@ const artworks = [
         description: "Not published yet",
         category: "digital arts",
         date: "2025-11-12",
-        imageUrl: "Art 51.jpg"
+        imageUrl: "Art 52.jpg"
     },
      {
         id: 51,
@@ -673,6 +673,7 @@ function formatDate(dateString) {
     return new Date(dateString).toLocaleDateString(undefined, options);
 
 }
+
 
 
 
