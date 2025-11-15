@@ -1,5 +1,13 @@
 // Sample artwork data - you can replace this with your actual artworks
 const artworks = [
+          {
+        id: 53,
+        title: "Art 53",
+        description: "How GRID Connects Builders, Investors, and Enterprises",
+        category: "digital arts",
+        date: "2025-11-14",
+        imageUrl: "Art 53.jpg"
+    },
      {
         id: 52,
         title: "Art 52",
@@ -673,6 +681,7 @@ function formatDate(dateString) {
     return new Date(dateString).toLocaleDateString(undefined, options);
 
 }
+
 
 
 
